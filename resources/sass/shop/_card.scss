@@ -1,0 +1,14 @@
+.card {
+    &-img-top {
+        height: 250px;
+    }
+    &-title{
+        text-transform: capitalize;
+    }
+    .badge{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        padding: 5px 10px;
+    }
+}

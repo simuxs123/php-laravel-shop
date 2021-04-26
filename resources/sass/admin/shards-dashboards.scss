@@ -1,0 +1,56 @@
+/*
+ * Shards Dashboard Lite UI Kit v1.0.0
+ * Project URL: https://designrevision.com/downloads/shards-dashboard-lite
+ * Based on: Shards UI Kit v2.0.3 (https://designrevision.com/downloads/shards)
+ * Based on: Bootstrap v4.1.1 (https://getbootstrap.com)
+ * Copyright 2017-* DesignRevision (https://designrevision.com)
+ * Copyright 2017-* Catalin Vasile (contact@catalin.me)
+ * License: MIT
+ */
+
+// Shards variables overrides.
+@import "resources/sass/admin/overrides";
+// Bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+// Base Shards UI Kit
+@import "../../../node_modules/shards-ui/src/scss/shards";
+
+/* Shards Dashboards Lite Styles */
+
+// Core
+@import "resources/sass/admin/variables";
+
+// Components
+@import "resources/sass/admin/reboot";
+@import "resources/sass/admin/buttons";
+@import "resources/sass/admin/button-group";
+@import "resources/sass/admin/navbar";
+@import "resources/sass/admin/badge";
+@import "resources/sass/admin/alert";
+@import "resources/sass/admin/input-group";
+@import "resources/sass/admin/custom-forms";
+@import "resources/sass/admin/custom-sliders";
+@import "resources/sass/admin/images";
+@import "resources/sass/admin/icons";
+@import "resources/sass/admin/dropdown";
+@import "resources/sass/admin/card";
+@import "resources/sass/admin/utilities";
+
+// Blocks
+@import "resources/sass/admin/blocks/main-navbar";
+@import "resources/sass/admin/blocks/main-sidebar";
+@import "resources/sass/admin/blocks/main-content";
+@import "resources/sass/admin/blocks/main-footer";
+@import "resources/sass/admin/blocks/page-header";
+
+// Templates
+@import "resources/sass/admin/templates/common"; // Required common styles for all pages.
+@import "resources/sass/admin/templates/blog-overview";
+@import "resources/sass/admin/templates/blog-add-new-post";
+
+// Plugins
+@import "resources/sass/admin/plugins/quill";
+
+// Components
+@import "resources/sass/admin/components/card-post";
+@import "resources/sass/admin/components/error";
